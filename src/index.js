@@ -9,6 +9,7 @@ import "./styles.css";
 function App() {
   return (
     <ApolloProvider client={apolloClient}>
+    <h1> TODOLIST!</h1>
       <TodoList />
     </ApolloProvider>
   );
